@@ -16,6 +16,16 @@ function fizzBuzz() {
         else {
             console.log(i);
         }
+    }  
+}
+
+function countBs(bees) {
+    count = 0;
+    for(i =0; i <= bees.length; i++) {
+        if (bees.charAt(i) == "B") {
+            count ++;
+        } 
     }
-    
+    console.log(count);
+  
 }
