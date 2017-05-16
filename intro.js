@@ -21,13 +21,14 @@ function fizzBuzz() {
 
 function countBs(bees) {
     count = 0;
-    for(i =0; i < bees.length; i++) {
+    for(i = 0; i < bees.length; i++) {
         if (bees.charAt(i) == "B") {
             count ++;
-        } 
+        }
     }
     console.log(count);
 }
+
 
 function countChar(word, letter) {
     count = 0;
@@ -38,3 +39,9 @@ function countChar(word, letter) {
     }
     console.log(count);
 }
+
+function countBsTwo(word, letter) {
+    countChar(word, letter);
+
+}
+
